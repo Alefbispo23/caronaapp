@@ -1,5 +1,6 @@
 {
   "expo": {
+     "scheme": "your-app-scheme",
     "name": "caronaapp",
     "slug": "caronaapp",
     "version": "1.0.0",
@@ -22,7 +23,10 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+       "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
