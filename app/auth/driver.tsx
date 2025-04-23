@@ -20,10 +20,42 @@ const driver = () => {
         </Text>
         <Text>Cadastro de novo motorista</Text>
     </View>
-    <Text>Vamos realizar seu cadastro, só precisamos apenas de algumas informações</Text>
-    <View>
-      <Text>Informações pessoais</Text>
-      <Text>Nome completo</Text>
+    <Text style={{
+          fontSize: 24,
+          paddingHorizontal: 25,
+          paddingVertical: 18
+        }}>
+        Vamos realizar seu cadastro, só precisamos apenas de algumas informações</Text>
+    <View style={{paddingHorizontal: 25}}>
+      <Text style={{
+        fontSize: 22,
+        fontWeight: 'bold' ,
+        marginBottom: 16
+      }}
+      >Informações pessoais</Text>
+      <Text style={{ fontSize: 18}}>Nome completo</Text>
+      <TextInput/>
+      <Text style={{ fontSize: 18}}>Email</Text>
+      <TextInput/>
+      <Text style={{ fontSize: 18}}>Telefone/Whatsapp</Text>
+      <TextInput/>
+      <Text style={{ fontSize: 18}}>Senha</Text>
+      <TextInput/>
+    </View>
+    <View style={{paddingHorizontal: 25, paddingVertical: 18}}>
+    <Text style={{
+        fontSize: 22,
+        fontWeight: 'bold' ,
+        marginBottom: 16
+      }}
+    >Informações so Veículo</Text>
+      <Text style={{ fontSize: 18}}>Marca</Text>
+      <TextInput/>
+      <Text style={{ fontSize: 18}}>Modelo</Text>
+      <TextInput/>
+      <Text style={{ fontSize: 18}}>Ano</Text>
+      <TextInput/>
+      <Text style={{ fontSize: 18}}>Placa</Text>
       <TextInput/>
     </View>
     </>
